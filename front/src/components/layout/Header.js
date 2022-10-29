@@ -41,7 +41,8 @@ const Header = () => {
                     </div>
 
                     <Link to="/carrito"><i class="fa fa-shopping-cart fa-2x text-white" aria-hidden="false"></i>
-                        <span className="ml-1" id="cart_count">2</span></Link>
+                       & <span className="ml-1" id="cart_count">8</span></Link>
+                        <Link className="dropdown-item" to="/">cart</Link>
                 </div>
 
             </nav>
