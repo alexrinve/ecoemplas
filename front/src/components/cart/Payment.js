@@ -1,8 +1,7 @@
 import React, { Fragment, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom'
-//import uuid from "react-native-uuid"
-import { v4 as uuid } from 'uuid';
+import uuid from "react-native-uuid"
 import { clearErrors, createOrder } from '../../actions/orderActions';
 import MetaData from '../layout/MetaData';
 import { useAlert } from 'react-alert';

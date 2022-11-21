@@ -24,8 +24,9 @@ const Header = () => {
                 <div className='col-12 col-md-3'>
                     <div className='navbar-brand'>
                         <Link to="/" ><img src="./images/icon3.png" alt="Emplas"></img></Link>
-                    </div>
+                        </div>
                 </div>
+
                 <div className='col-12 col-md-5 mt-2 mt-md-0'>
                     {/*Aqui va buscar*/}
                     <Search />
@@ -50,10 +51,10 @@ const Header = () => {
                             <div className='dropdown-menu' aria-labelledby='dropDownMenu'>
                                 {/*Preguntamos el rol de quien esta online*/}
                                 {user && user.role === "admin" && (
-                                    <Link className="dropdown-item" to="/dashboard">Adm. Productos</Link>
+                                    <Link className="dropdown-item" to="/dashboard">Dashboard</Link>
                                 )}
 
-                                <Link className="dropdown-item" to="/">Pedidos</Link>
+                                <Link className="dropdown-item" to="/myOrders">Pedidos</Link>
                                 <Link className="dropdown-item" to="/yo">Mi Perfil</Link>
                                 <Link className="dropdown-item" to="/" onClick={logoutHandler}>Cerrar Sesion</Link>
                             </div>

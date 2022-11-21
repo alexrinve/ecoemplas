@@ -38,13 +38,9 @@ const productosSchema=mongoose.Schema({
         required:[true,"Por favor seleccione la categoria del producto."],
         enum:{
             values:[
-                "hogar",
-                "Alimento humedo",
+                "Hogar",
                 "Accesorios",
-                "Cuidado e Higiene",
-                "Medicamentos",
-                "Snacks",
-                "Juguetes"
+             
             ]
         }
     },

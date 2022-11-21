@@ -22,11 +22,7 @@ const NewProduct = () => {
 
     const categorias = [
         "Hogar",
-        "Aseo",
-        "Artesanias",
-        "Ropa",
-        "zapatos",
-        "Accesorios"
+        "Accesorios",
         
     ]
 
